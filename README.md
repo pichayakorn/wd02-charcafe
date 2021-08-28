@@ -31,7 +31,10 @@ $ cd wd02
 $ code .
 ```
 ## ⚠️ Caution
-Do not develop on `main` branch, create another branch instead.
+- Do not develop on `main` branch, create another branch instead.
+- `Fetch` every time before `push` or `pull`.
+- `Commit` when your work are done enough with short and strong message.
+- Because you are contributor, please do not `merge` branch by your self with out asking leader's permission.
 
 ## 🛠️ @Contributor 
 - 1911310124 Kornkanok Samrit  
