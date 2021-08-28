@@ -5,9 +5,9 @@ WD02 group project
 
 ## Requirements
 
-- visual studio code (vscode). `vscodium alternate of vscode`
-- gitHub account [sign up](https://github.com/).
-- gitHub desktop [download here](https://desktop.github.com/).
+- Visual Studio Code (vscode). `vscodium alternate of vscode`
+- GitHub account [sign up](https://github.com/).
+- GitHub desktop [download here](https://desktop.github.com/).
 
 ### Extensions
 - Live server
@@ -22,7 +22,7 @@ WD02 group project
 1. Click drop down `code` button on top of this repository.
 2. Open with GitHub Desktop.
 3. Clone this repository to your local drive
-4. Open with vscode.
+4. Open in Visual Studio Code.
 
 ### Bash
 ```bash
