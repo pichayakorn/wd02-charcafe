@@ -7,7 +7,7 @@ WD02 group project
 
 - visual studio code (vscode). `vscodium alternate of vscode`
 - gitHub account [sign up](https://github.com/).
-- gitHub desktop [download here](https://github.com/).
+- gitHub desktop [download here](https://desktop.github.com/).
 
 ### Extensions
 - Live server
