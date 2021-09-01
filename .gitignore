@@ -1,2 +1,4 @@
 *.log
+# Crete "mine-resource" folder to contain your external resource files
+# EG: mine-resources/css, mine-resources/img, mine-resources/js
 mine-resources/
