@@ -12,3 +12,38 @@
      /* font-family: 'Oleo Script', cursive; */
      font-family: 'Roboto', sans-serif;
  }
+
+
+.row{
+        background-color: rgb(241, 238, 219);
+    }
+
+.main-nav {
+        float: right;
+        list-style: none;
+
+          }
+
+.main-nav li {
+                display: inline-block;
+                margin-left: 40px;
+            }
+
+
+
+           
+.head{
+         background-position: center;
+         width: 100%;
+
+     }
+
+     .header-text-box {
+                position: absolute;
+                font-size: 85px;
+                color: khaki;
+                width: 1140px;
+                top: 85%;
+                left: 65%;
+                transform: translate(-50%, -50%);
+            }
