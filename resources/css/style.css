@@ -1,0 +1,132 @@
+/* Import
+   ========================================================================== */
+
+/**
+ * Online google fonts
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    /* font-family: 'Oleo Script', cursive; */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Welcome homepage
+   ========================================================================== */
+
+.welcome {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+}
+
+/* Navigator
+   ========================================================================== */
+
+nav {
+    /* background-color: antiquewhite; */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 5%;
+    height: 10vh;
+}
+
+nav .logo {
+    position: relative;
+    top: -8px;
+    width: 60px;
+    margin-right: 20px;
+}
+
+nav h3 {
+    font-family: 'Oleo Script', cursive;
+    font-size: 30px;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Header
+   ========================================================================== */
+
+header {
+    /* background-image: url(../../mine-resources/img/tea_farm_2.jpg); */
+    background-image: linear-gradient(#425f4d85,#ffffff00), url(../../mine-resources/img/tea_farm_2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    /* background-attachment: fixed; */
+}
+
+header .header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* text-align: center; */
+    /* background-color: black; */
+}
+
+header .header-logo {
+    display: inline-block;
+    width: 150px;
+}
+
+header h1 {
+    font-family: 'Oleo Script', cursive;
+    display: inline-block;
+    font-size: 150px;
+    color: white;
+
+    /* background-color: black; */
+}
+
+/* Footer
+   ========================================================================== */
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 0px 1%;
+    /* background-color: yellow; */
+}
+
+footer p {
+    font-weight: 700;
+}
+
+footer ul {
+    flex: 1;
+    text-align: right;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li a i{
+    font-size: 20px;
+}
