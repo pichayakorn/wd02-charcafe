@@ -39,8 +39,10 @@ h3 {
 h4{
     color: #32612d;
     width: 50%;
-    margin: 0 auto;
     text-align: left;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h4:after {
@@ -48,7 +50,7 @@ h4:after {
     content: " ";
     background-color: #32612d; 
     height: 1px;
-    width: 300px;
+    width: 250px;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -89,12 +91,12 @@ h4:after {
 }
 
 .row {
-    width: 100%;
     margin: 0 auto;
 }
 
 .menu-des{
     width: 50%;
-    margin: 0 auto;
+    margin-left: 60px;
     text-align: left;
+    margin-top: 10px;
 }
