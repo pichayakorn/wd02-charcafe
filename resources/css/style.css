@@ -1,14 +1,13 @@
 /* Import
    ========================================================================== */
 
-/**
- * Online google fonts
- */
-
+/** Online google fonts **/
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 
 * {
+    margin: 0;
+    padding: 0;
     /* font-family: 'Oleo Script', cursive; */
     font-family: 'Roboto', sans-serif;
 }
@@ -19,7 +18,7 @@
 .welcome {
     width: 100%;
     min-height: 100vh;
-    background-color: black;
+    /* background-color: black; */
 }
 
 /* Navigator
@@ -85,13 +84,13 @@ header .header-text {
 
 header .header-logo {
     display: inline-block;
-    width: 150px;
+    width: 100px;
 }
 
 header h1 {
     font-family: 'Oleo Script', cursive;
     display: inline-block;
-    font-size: 150px;
+    font-size: 100px;
     color: white;
 
     /* background-color: black; */
