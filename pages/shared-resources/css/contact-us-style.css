@@ -5,10 +5,130 @@
  * Online google fonts
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
- 
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
  * {
      /* font-family: 'Oleo Script', cursive; */
-     font-family: 'Roboto', sans-serif;
- }
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #49654C;
+}
+
+h2 {
+    font-weight: 700;   
+    text-transform: uppercase;
+    font-size: 220%;    
+    word-spacing: 3px;
+    text-align: left;
+    margin-bottom: 20px;    
+    letter-spacing: 0.8px;  
+    color: #253628;
+}
+
+section {
+    padding: 10px 0px 5px 0; 
+}
+
+.row {
+    max-width: 1140px;   
+    margin-bottom: 10px;
+}
+
+.for-float{
+    width: 600px;
+    float:left;
+    padding-left: 11%;
+}
+
+/* --------------------------------- */
+/* SECTION 1 contact-us */
+/* ----------------------------------*/
+
+.contact-us{
+    /*background-color: #555; */
+    border-bottom: 1px solid #C0CEB2;
+}
+
+.contact-form {
+    width: 60%; 
+}
+
+.icon-small {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 120%;
+    color: #253628;
+    text-align:center;
+    margin-right: 15px;
+    line-height: 120%;
+    width: 25px;    
+}
+
+a:link,
+a:visited {
+    color: #ccc4b0;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc4b0;
+    padding-bottom: 1px;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #253628;
+    border-bottom: 1px solid transparent;
+}
+
+/* --------------------------------- */
+/* SECTION 2 subscribe */
+/* ----------------------------------*/
+
+/* .subscribe{
+    background-color: #888; 
+} */
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 350px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #253628;
+}
+
+input[type="submit"]{
+    margin-left: 100%;
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #253628;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    background-color: #fff;
+    color: #253628;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:active {
+    background-color: #253628;
+    border: 1px solid #253628;
+    color: #fff;
+}
+
+/* --------------------------------- */
+/* SECTION 3 aside img */
+/* ----------------------------------*/
+
+aside {
+    float: left;
+    /*background-color: #111;*/
+}
+
+aside img{
+    width: 350px;
+    height: 650px;
+    margin-left: 50%;
+}
