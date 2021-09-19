@@ -8,17 +8,23 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     /* font-family: 'Oleo Script', cursive; */
     font-family: 'Roboto', sans-serif;
+    color: #49654C;
 }
 
-/* Welcome homepage
+h1, h2, h3 {
+    color: #253628;
+}
+
+/* Re-use
    ========================================================================== */
 
-.welcome {
-    width: 100%;
-    min-height: 100vh;
-    /* background-color: black; */
+.btn {
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 6px 18px;
 }
 
 /* Navigator
@@ -29,8 +35,8 @@ nav {
     background-color: white;
     display: flex;
     align-items: center;
-    padding: 10px 5%;
-    height: 10vh;
+    padding: 20px 5% 10px 5%;
+    /* height: 10vh; */
 }
 
 nav .logo {
@@ -66,16 +72,16 @@ nav ul li a {
 
 header {
     /* background-image: url(../../mine-resources/img/tea_farm_2.jpg); */
-    background-image: linear-gradient(#425f4d85,#ffffff00), url(../../mine-resources/img/tea_farm_2.jpg);
+    background-image: linear-gradient(#425f4d85,#ffffff00), url(./img/tea_farm_2.jpg);
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 100vh;
     /* background-attachment: fixed; */
 }
 
 header .header-text {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
     /* text-align: center; */
@@ -84,22 +90,108 @@ header .header-text {
 
 header .header-logo {
     display: inline-block;
-    width: 100px;
+    width: 120px;
 }
 
 header h1 {
     font-family: 'Oleo Script', cursive;
     display: inline-block;
-    font-size: 100px;
+    font-size: 120px;
     color: white;
 
     /* background-color: black; */
 }
 
+/* Home text
+   ========================================================================== */
+.home-text {
+    width: 66%;
+    float: left;
+}
+
+.home-text .text {
+    /* padding: 80px 20px; */
+    /* margin: 50px 20px 20px 30px; */
+    /* position: absolute; */
+    /* top: 150%; */
+    /* background-color: rgb(194, 252, 118); */
+    font-size: 20px;
+    width: 500px;
+    margin: 120px auto 0 150px;
+}
+
+.home-text .text h2 {
+    font-family: 'Oleo Script', cursive;
+    font-weight: 700;   
+    font-size: 70px;    
+    /* word-spacing: 3px; */
+    /* text-align: left; */
+    margin-bottom: 15px;    
+    /* letter-spacing: 0.8px;   */
+    color: #253628;
+}
+
+.home-text .text .welcome-text {
+    letter-spacing: 1px;
+}
+
+.home-text .text .welcome-text p{
+    margin-bottom: 15px;
+}
+
+.home-text .knowmore-box {
+    margin-top: 30px;
+}
+
+.home-text .knowmore-box a{
+    text-decoration: none;
+}
+
+/* Home image review
+   ========================================================================== */
+.home-image-review {
+    width: 34%;
+    float: right;
+}
+
+.home-image-review .img-review {
+    width: 100%;
+}
+
+.home-image-review ul li {
+    list-style: none;
+}
+
+/* 
+h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 30px;  
+    }
+
+.knowmore-box {
+    margin-top: 10px;
+}
+
+.
+.image-review{
+    padding: 80px 20px;
+    margin: 50px 20px 20px 30px;
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 120%;
+    left: 60%; 
+}
+
+.image-review li {
+    list-style: none;
+} */
 /* Footer
    ========================================================================== */
 
 footer {
+    clear: both;
     display: flex;
     align-items: center;
     padding: 0px 1%;
