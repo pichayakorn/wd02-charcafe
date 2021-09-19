@@ -55,6 +55,13 @@ h4 {
     padding: 6px 18px;
 }
 
+.btn:hover {
+    background-color: #253628;
+    border: 1px solid #253628;
+    color: #fff;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
 /* Navigator
    ========================================================================== */
 
@@ -118,6 +125,16 @@ nav ul li a:active::before {
 nav ul li a:hover {
     transition: color 0.2s;
     color: #37a189;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 2px;
+    z-index: 9999;
 }
 
 /* Header
@@ -256,6 +273,7 @@ header h1 {
 .section-menu .menu-nav ul li a {
     color: #F5F6F7;
     text-decoration: none;
+    font-family: cursive; 
     /* color: orange;
     font-size: 120%; */
 }
@@ -267,6 +285,8 @@ header h1 {
 
 .section-menu .menu-list {
     margin-top: 50px;
+    width: 100%;
+    height: 125vh;
 }
 
 .section-menu .menu-list .menu-list-header {
@@ -311,6 +331,132 @@ header h1 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+/* Contact us
+   ========================================================================== */
+
+.contact-us-aside-left {
+    width: 60%;
+    float:left;
+    /* padding-left: 11%; */
+}
+
+.contact-us-aside-left .contact-us{
+    /*background-color: #555; */
+    width: 600px;
+    margin: 10% auto 0 25%;
+    /* border-bottom: 1px solid #C0CEB2; */
+}
+
+.contact-us-aside-left .contact-us h2{
+    margin-bottom: 20px;
+}
+
+.contact-us-aside-left .contact-us .icon-small {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 120%;
+    color: #253628;
+    text-align:center;
+    margin-right: 15px;
+    line-height: 120%;
+    width: 25px;
+}
+
+.contact-us-aside-left .contact-us div {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.contact-us-aside-left .contact-us:after {
+    display: block;
+    content: "";
+    background-color: #C0CEB2; 
+    height: 2px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.contact-us-aside-left .contact-us a:link,
+.contact-us-aside-left .contact-us a:visited {
+    color: #253628;
+    text-decoration: none;
+    border-bottom: 1px solid #253628;
+    padding-bottom: 1px;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.contact-us-aside-left .contact-us a:hover,
+.contact-us-aside-left .contact-us a:active {
+    color: #ccc4b0;
+    border-bottom: none;
+}
+
+/* Subscribe form
+   ========================================================================== */
+
+.subscribe {
+    width: 600px;
+    margin: 50px auto 100px 25%;
+}
+
+.subscribe h2 {
+    margin-bottom: 20px;
+}
+
+.subscribe .row {
+    width: 500px;
+}
+
+.subscribe .contact-form {
+    width: 60%; 
+}
+
+.subscribe input[type="text"],
+.subscribe input[type="email"],
+.subscribe textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #253628;
+}
+
+.subscribe input[type="submit"]{
+    /* margin-left: 100%; */
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    height: 50px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #253628;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    background-color: #fff;
+    color: #253628;
+}
+
+.subscribe input[type="submit"]:hover,
+.subscribe input[type="submit"]:active {
+    background-color: #253628;
+    border: 1px solid #253628;
+    color: #fff;
+}
+
+aside {
+    width: 40%;
+    height: 100%;
+    float: left;
+    /*background-color: #111;*/
+}
+
+aside img{
+    width: 500px;
+    height: 100%;
+    /* margin-left: 40%; */
+}
+
 /* Footer
    ========================================================================== */
 

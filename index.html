@@ -20,7 +20,7 @@
 <body>
     <!-- Header and navigator -->
     <header>
-        <nav>
+        <nav class="sticky">
             <img src="./resources/img/logo/logo_tea.png" alt="logo" class="logo">
             <h3>Char Cafe</h3>
             <ul>
@@ -82,7 +82,7 @@
             </ul>
         </div>
     </section>
-    
+
     <!-- Section menu -->
     <section class="section-menu">
         <div class="menu-header">
@@ -151,7 +151,7 @@
                     </figure>
                 </li>
             </ul>
-            <ul class="row">
+            <ul class="">
                 <li class="col span-1-of-4">
                     <figure class="menu-photo">
                         <img src="./resources/img/menu-section/menu_5.jpg">
@@ -200,6 +200,80 @@
         </div>
     </section>
 
+    <!-- Section Contact Us -->
+    <div class="clearfix">
+    <div class="contact-us-aside-left">
+        <section class="contact-us">
+            <h2>Contact Us</h2>
+            <div>
+                <i class="ion-ios-location icon-small"></i>
+                <p>Similique, assumenda ipsa atque nisi iste
+                    ullam,<br>obcaecati sit officia </p>
+            </div>
+            <div>
+                <i class="ion-social-facebook icon-small"></i>
+                <a href="#">CharCafeTH</a>
+            </div>
+            <div>
+                <i class="ion-social-instagram icon-small"></i>
+                <a href="#">CharCafe_official</a>
+            </div>
+            <div>
+                <i class="ion-social-twitter icon-small"></i>
+                <a href="#">@CharCafe</a>
+            </div>
+            <div>
+                <i class="ion-ios-telephone icon-small"></i>
+                <p>xxx-xxx-xxxx</p>
+            </div>
+        </section>
+
+        <section class="subscribe">
+            <h2>Subscribe</h2>
+            <form method="GET" action="#" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Message</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Notify Me</label>
+                    </div>
+                    <div class="col span-1-of-3">
+                        <input type="checkbox" name="news" id="news" checked>
+                    </div>
+                    <div class="col span-1-of-3">
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <aside>
+        <img src="../resources/img/background/cafe_vertical.jpeg" alt="CharCafe">
+    </aside>
+</div>
     <!-- Footer -->
     <footer>
         <p>Copyright &copy; 2021 CHAR CAFE</p>
