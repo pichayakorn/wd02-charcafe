@@ -1,4 +1,4 @@
-
+/* ----- 1351 - full hd (~1920) ----- */
 @media only screen and (max-width: 1580px) {
 /** Home text
     ========================================================================== **/
@@ -7,8 +7,8 @@
         margin: 10% auto 0 15%;
     }
 
-/* Section Menu 
-   ========================================================================== */
+/** Section Menu 
+    ========================================================================== **/
     .section-menu .menu-list {
         height: 1150px;
     }
@@ -29,22 +29,22 @@
         margin: 0 auto;
     }
 
-/* Contact us
-   ========================================================================== */
+/** Contact us
+    ========================================================================== **/
     .contact-us-aside-left .contact-us {
         width: 600px;
         margin: 10% auto 0 15%;
     }
 
-/* Subscribe form
-   ========================================================================== */
+/** Subscribe form
+    ========================================================================== **/
     .subscribe {
         width: 600px;
         margin: 40px auto 100px 15%;
     }
 }
 
-/* ----- ger tablet or small pc: 1024 - 1200 ----- */
+/* ----- 1201 - 1350 ----- */
 @media only screen and (max-width: 1350px) {
 /** Header
     ========================================================================== **/
@@ -93,15 +93,15 @@
         margin: 0 auto;
     }
 
-/* Contact us
-   ========================================================================== */
-   .contact-us-aside-left .contact-us {
+/** Contact us
+    ========================================================================== **/
+    .contact-us-aside-left .contact-us {
         width: 550px;
         margin: 10% auto 0 12%;
     }
 
-/* Subscribe form
-========================================================================== */
+/** Subscribe form
+    ========================================================================== **/
     .subscribe {
         width: 550px;
         margin: 40px auto 100px 12%;
@@ -109,6 +109,7 @@
 
 }
 
+/* ----- 1121 - 1200 ----- */
 @media only screen and (max-width: 1200px) {
 
     .section-menu .menu-list {
@@ -125,7 +126,7 @@
     }
 }
 
-/* ----- tablet to big tablet: 768 - 1023 ----- */
+/* ----- tablet to big tablet: 1071 - 1120 ----- */
 @media only screen and (max-width: 1120px) {
 
     header .header-logo {
@@ -161,7 +162,7 @@
     }
 }
 
-/* ----- phone to small tablet: 481 - 767 ----- */
+/* ----- 1016 - 1070 ----- */
 @media only screen and (max-width: 1070px) {
 /** Home text
     ========================================================================== **/
@@ -186,8 +187,8 @@
         display: none;
     }
 
-/* Contact us
-   ========================================================================== */
+/** Contact us
+    ========================================================================== **/
     .contact-us-aside-left {
         width: 100vh;
     }
@@ -214,8 +215,8 @@
         color: #ccc4b0;
     }
 
-/* Subscribe form
-    ========================================================================== */
+/** Subscribe form
+    ========================================================================== **/
     .subscribe {
         width: 700px;
         margin: 40px auto 100px auto;
@@ -230,9 +231,8 @@
     }
 }
 
-/* ----- small phone: 0 - 480 ----- */
+/* ----- 910 - 1015 ----- */
 @media only screen and (max-width: 1015px) {
-    /* * {background-color: cyan;} */
     nav ul li {
         margin: 0 10px;
     }
@@ -269,6 +269,7 @@
 
 }
 
+/* ----- 906 - 909 ----- */
 @media only screen and (max-width: 909px) {
 
     .home-text .text {
@@ -280,8 +281,8 @@
         font-size: 16px;
     }
 
-/* Contact us
-   ========================================================================== */
+/** Contact us
+    ========================================================================== **/
     .contact-us-aside-left .contact-us {
         width: 550px;
         margin: 10% auto 0 13%;
@@ -304,8 +305,8 @@
         color: #ccc4b0;
     }
 
-/* Subscribe form
-    ========================================================================== */
+/** Subscribe form
+    ========================================================================== **/
     .subscribe {
         width: 550px;
         margin: 40px auto 100px 13%;
@@ -316,12 +317,14 @@
     }
 }
 
+/* ----- 832 - 905 ----- */
 @media only screen and (max-width: 905px) {
     header .header-logo {
         display: none
     }
 }
 
+/* ----- 806 - 831 ----- */
 @media only screen and (max-width: 831px) {
     nav ul {
         display: none;
@@ -361,6 +364,7 @@
     }
 }
 
+/* ----- 718 - 807 ----- */
 @media only screen and (max-width: 807px) {
     .home-text .text {
         width: 600px;
@@ -395,6 +399,7 @@
     }
 }
 
+/* ----- ~483 - 717 ----- */
 @media only screen and (max-width: 717px) {
     .home-text .text {
         width: 400px;
