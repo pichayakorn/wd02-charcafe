@@ -13,6 +13,9 @@
 
     <!-- Created stylesheet -->
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    
+    <!-- Media queries -->
+    <link rel="stylesheet" type="text/css" href="./resources/css/queries.css">
 
     <title>CharCafe</title>
 </head>
@@ -20,27 +23,27 @@
 <body>
     <!-- Header and navigator -->
     <header>
-        <nav class="sticky">
+        <nav>
             <img src="./resources/img/logo/logo_tea.png" alt="logo" class="logo">
             <h3>Char Cafe</h3>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#section-1">Home</a></li>
                 <li><a href="#">About Us</a></li>
-                <li><a href="#">Menu</a></li>
+                <li><a href="#section-2">Menu</a></li>
                 <li><a href="#">Stores</a></li>
                 <li><a href="#">Application</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#section-3">Contact Us</a></li>
             </ul>
         </nav>
 
         <div class="header-text">
             <img src="./resources/img/logo/logo_tea_white.png" class="header-logo">
-            <h1>Welcome ..</h1>
+            <h1>Welcome..</h1>
         </div>
     </header>
 
-    <!-- Section home -->
-    <section class="home-section clearfix">
+    <!-- Section 1: Section home -->
+    <section id="section-1" class="home-section clearfix">
         <div class="home-text">
             <div class="text">
                 <h2>Welcome</h2>
@@ -84,7 +87,7 @@
     </section>
 
     <!-- Section menu -->
-    <section class="section-menu">
+    <section id="section-2" class="section-menu">
         <div class="menu-header">
             <h1>Char Cafe</h1>
             <h3>BAKERY & TEA</h3>
@@ -201,7 +204,7 @@
     </section>
 
     <!-- Section Contact Us -->
-    <div class="clearfix">
+    <div id="section-3" class="clearfix">
     <div class="contact-us-aside-left">
         <section class="contact-us">
             <h2>Contact Us</h2>
