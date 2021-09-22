@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,40 +11,289 @@
     <link rel="stylesheet" type="text/css" href="./vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="./vendors/css/ionicons.min.css">
 
+    <!-- Created stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+
+    <!-- Media queries -->
+    <link rel="stylesheet" type="text/css" href="./resources/css/queries.css">
+
     <title>CharCafe</title>
 </head>
+
 <body>
-    <!-- Header with navigator -->
+    <!-- Header and navigator -->
     <header>
         <nav>
-            <div>
-                <img src="./mine-resources/img/logo_black.png" alt="logo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Stores</a></li>
-                    <li><a href="#">Application</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </div>
+            <img src="./resources/img/logo/logo_tea.png" alt="logo" class="logo">
+            <h3>Char Cafe</h3>
+            <ul>
+                <li><a href="#section-1">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#section-2">Menu</a></li>
+                <li><a href="#">Stores</a></li>
+                <li><a href="#">Application</a></li>
+                <li><a href="#section-3">Contact Us</a></li>
+            </ul>
         </nav>
+
+        <div class="header-text">
+            <img src="./resources/img/logo/logo_tea_white.png" class="header-logo">
+            <h1>Welcome..</h1>
+        </div>
     </header>
 
-    <!-- Footer -->
-    <footer>
-        <div>
-            <div>
-                <p>Copyright &copy; 2021 CHAR CAFE</p>
+    <!-- Section 1: Section home -->
+    <section id="section-1" class="home-section clearfix">
+        <div class="home-text">
+            <div class="text">
+                <h2>Welcome</h2>
+                <div class="welcome-text">
+                    <p>Hello</p>
+                    <p>
+                        Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Alias, illum rerum eius ab architecto sunt!
+                    </p>
+                    <p>
+                        Rerum accusantium quas minima aspernatur doloremque, necessitatibus optio laboriosam totam quia,
+                        nostrum eligendi cumque, incidunt laudantium ex iusto repellendus consequatur vel deserunt nam
+                        dolorum error? Aspernatur voluptatibus
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur. nam dolorum error? Aspernatur voluptatibus
+                    </p>
+                    <p>
+                        Best thing you every seen.
+                    </p>
+                </div>
+                <div class="knowmore-box">
+                    <a href="#" target="_blank" class="btn">know more</a>
+                </div>
             </div>
-            <div>
+        </div>
+
+        <div class="home-image-review clearfix">
+            <ul class="rslides">
+                <li>
+                    <img src="./resources/img/home-section/use_1.jpg" class="img-review">
+                    <img src="./resources/img/home-section/use_2.jpg" class="img-review">
+                </li>
+                <li>
+                    <img src="./resources/img/home-section/use_3.jpg" class="img-review">
+                    <img src="./resources/img/home-section/use_4.jpg" class="img-review">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Section menu -->
+    <section id="section-2" class="section-menu">
+        <div class="menu-header">
+            <h1>Char Cafe</h1>
+            <h3>BAKERY & TEA</h3>
+            <div class="menu-nav">
                 <ul>
-                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="#">Tea</a></li>
+                    <li><a href="#">Coffee</a></li>
+                    <li><a href="#">Bakery</a></li>
+                    <li><a href="#">Ice-cream</a></li>
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">Souvenir</a></li>
                 </ul>
             </div>
         </div>
+        <div class="menu-list">
+            <p class="menu-list-header">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum placeat quis blanditiis. Necessitatibus
+                harum, voluptatibus aspernatur consequatur distinctio rem culpa molestiae quaerat corporis quod
+                laudantium expedita enim consectetur voluptas impedit.
+            </p>
+            <ul>
+                <li class="col span-1-of-4">
+                    <figure class="menu-photo">
+                        <img src="./resources/img/menu-section/menu_1.png">
+                        <div class="figure-text">
+                            <h4>Sentiment Bracelet</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat. bland
+                            </p>
+                        </div>
+                    </figure>
+                </li>
+                <li class="col span-1-of-4">
+                    <figure class="menu-photo">
+                        <img src="./resources/img/menu-section/menu_2.png">
+                        <div class="figure-text">
+                            <h4>Sentiment Bracelet</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat. bland
+                            </p>
+                        </div>
+                    </figure>
+                </li>
+                <li class="col span-1-of-4">
+                    <figure class="menu-photo">
+                        <img src="./resources/img/menu-section/menu_3.png">
+                        <div class="figure-text">
+                            <h4>Sentiment Bracelet</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat. bland
+                            </p>
+                        </div>
+                    </figure>
+                </li>
+                <li class="col span-1-of-4">
+                    <figure class="menu-photo">
+                        <img src="./resources/img/menu-section/menu_4.jpg">
+                        <div class="figure-text">
+                            <h4>Sentiment Bracelet</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat. bland
+                            </p>
+                        </div>
+                    </figure>
+                </li>
+            </ul>
+            <ul class="">
+                <li class="col span-1-of-4">
+                    <figure class="menu-photo">
+                        <img src="./resources/img/menu-section/menu_5.jpg">
+                        <div class="figure-text">
+                            <h4>Sentiment Bracelet</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat. bland
+                            </p>
+                        </div>
+                    </figure>
+                </li>
+                <li class="col span-1-of-4">
+                    <figure class="menu-photo">
+                        <img src="./resources/img/menu-section/menu_6.jpg">
+                        <div class="figure-text">
+                            <h4>Sentiment Bracelet</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat. bland
+                            </p>
+                        </div>
+                    </figure>
+                </li>
+                <li class="col span-1-of-4">
+                    <figure class="menu-photo">
+                        <img src="./resources/img/menu-section/menu_7.png">
+                        <div class="figure-text">
+                            <h4>Sentiment Bracelet</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat. bland
+                            </p>
+                        </div>
+                    </figure>
+                </li>
+                <li class="col span-1-of-4">
+                    <figure class="menu-photo">
+                        <img src="./resources/img/menu-section/menu_8.jpg">
+                        <div class="figure-text">
+                            <h4>Sentiment Bracelet</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat. bland
+                            </p>
+                        </div>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Section Contact Us -->
+    <div id="section-3">
+        <div class="contact-us-aside-left">
+            <section class="contact-us">
+                <h2>Contact Us</h2>
+                <div>
+                    <i class="ion-ios-location icon-small"></i>
+                    <p>Similique, assumenda ipsa atque nisi iste
+                        ullam,<br>obcaecati sit officia </p>
+                </div>
+                <div>
+                    <i class="ion-social-facebook icon-small"></i>
+                    <a href="#">CharCafeTH</a>
+                </div>
+                <div>
+                    <i class="ion-social-instagram icon-small"></i>
+                    <a href="#">CharCafe_official</a>
+                </div>
+                <div>
+                    <i class="ion-social-twitter icon-small"></i>
+                    <a href="#">@CharCafe</a>
+                </div>
+                <div>
+                    <i class="ion-ios-telephone icon-small"></i>
+                    <p>xxx-xxx-xxxx</p>
+                </div>
+            </section>
+
+            <section class="subscribe">
+                <h2>Subscribe</h2>
+                <form method="GET" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Message</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Notify Me</label>
+                        </div>
+                        <div class="col span-1-of-3">
+                            <input type="checkbox" name="news" id="news" checked>
+                        </div>
+                        <div class="col span-1-of-3">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+
+        <aside>
+            <img src="../resources/img/background/cafe_vertical.jpeg" alt="CharCafe">
+        </aside>
+    </div>
+    
+    <div class="clearfix"></div>
+    <!-- Footer -->
+    <footer>
+        <p>Copyright &copy; 2021 CHAR CAFE</p>
+
+        <ul>
+            <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+            <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+            <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+        </ul>
     </footer>
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./vendors/js/responsiveslides.min.js"></script>
+    <!-- Created jquery script -->
+    <script src="./resources/js/script.js"></script>
 </body>
+
 </html>

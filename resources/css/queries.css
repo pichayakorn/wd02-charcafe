@@ -1,0 +1,422 @@
+/* ----- 1351 - full hd (~1920) ----- */
+@media only screen and (max-width: 1580px) {
+/** Home text
+    ========================================================================== **/
+    .home-text .text {
+        width: 600px;
+        margin: 10% auto 0 15%;
+    }
+
+/** Section Menu 
+    ========================================================================== **/
+    .section-menu .menu-list {
+        height: 1150px;
+    }
+
+    .section-menu .menu-list .menu-photo{
+        margin-bottom: 20px;
+    }
+
+    .section-menu .menu-list .menu-photo img {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+    .section-menu .menu-list .figure-text {
+        width: 280px;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+/** Contact us
+    ========================================================================== **/
+    .contact-us-aside-left .contact-us {
+        width: 600px;
+        margin: 10% auto 0 15%;
+    }
+
+/** Subscribe form
+    ========================================================================== **/
+    .subscribe {
+        width: 600px;
+        margin: 40px auto 100px 15%;
+    }
+}
+
+/* ----- 1201 - 1350 ----- */
+@media only screen and (max-width: 1350px) {
+/** Header
+    ========================================================================== **/
+    header .header-logo {
+        width: 100px;
+    }
+    
+    header h1 {
+        font-size: 100px;
+    }
+
+/** Home text
+    ========================================================================== **/
+    .home-text .text {
+        width: 600px;
+        margin: 8% auto 0 12%;
+    }
+
+    .home-text .text h2 {    
+        font-size: 60px;    
+    }
+
+    .home-text .text .welcome-text p{
+        font-size: 18px;  
+    }
+    
+/** Section Menu 
+    ========================================================================== **/
+    .section-menu .menu-list {
+        height: 1000px;
+    }
+
+    .section-menu .menu-list .menu-photo{
+        margin-bottom: 20px;
+    }
+
+    .section-menu .menu-list .menu-photo img {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 10px;
+    }
+
+    .section-menu .menu-list .figure-text {
+        width: 250px;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+/** Contact us
+    ========================================================================== **/
+    .contact-us-aside-left .contact-us {
+        width: 550px;
+        margin: 10% auto 0 12%;
+    }
+
+/** Subscribe form
+    ========================================================================== **/
+    .subscribe {
+        width: 550px;
+        margin: 40px auto 100px 12%;
+    }
+
+}
+
+/* ----- 1121 - 1200 ----- */
+@media only screen and (max-width: 1200px) {
+
+    .section-menu .menu-list {
+        height: 950px;
+    }
+
+    .section-menu h4 {
+        font-size: 20px;
+    }
+
+    .section-menu .menu-list .figure-text p{
+        font-size: 15px;
+        line-height: 1.2;
+    }
+}
+
+/* ----- tablet to big tablet: 1071 - 1120 ----- */
+@media only screen and (max-width: 1120px) {
+
+    header .header-logo {
+        width: 90px;
+    }
+    
+    header h1 {
+        font-size: 90px;
+    }
+
+    .section-menu .menu-list {
+        height: 570px;
+    }
+
+    .section-menu .menu-list .menu-list-header {
+        display: none;
+    }
+
+    .section-menu .menu-list .menu-photo img {
+        width: 220px;
+        height: 220px;
+        margin-bottom: 10px;
+        transition: transform 0.3s ease
+    }
+
+    .section-menu .menu-list .menu-photo img:hover{
+        transform: scale(1.04);
+        transition: transform 0.3s ease
+    }
+
+    .section-menu .menu-list .figure-text {
+        display: none;
+    }
+}
+
+/* ----- 1016 - 1070 ----- */
+@media only screen and (max-width: 1070px) {
+/** Home text
+    ========================================================================== **/
+    .home-text {
+        width: 100%;
+    }
+    
+    .home-text .text {
+        width: 700px;
+        margin: 8% auto 8% auto;
+    }
+
+    .home-text .text h2 {    
+        font-size: 60px;    
+    }
+
+    .home-text .text .welcome-text p{
+        font-size: 18px;  
+    }
+
+    .home-image-review {
+        display: none;
+    }
+
+/** Contact us
+    ========================================================================== **/
+    .contact-us-aside-left {
+        width: 100%;
+    }
+    
+    .contact-us-aside-left .contact-us {
+        width: 700px;
+        margin: 10% auto 0 auto;
+    }
+
+    .contact-us-aside-left .contact-us .icon-small {
+        font-size: 160%;
+    }
+    .contact-us-aside-left .contact-us p {
+        font-size: 110%;
+    }
+    .contact-us-aside-left .contact-us a:link,
+    .contact-us-aside-left .contact-us a:visited {
+        margin-top: 7px;
+        border-bottom: none;
+        transition: color 0.2s;
+    }
+    .contact-us-aside-left .contact-us a:hover,
+    .contact-us-aside-left .contact-us a:active {
+        color: #ccc4b0;
+    }
+
+/** Subscribe form
+    ========================================================================== **/
+    .subscribe {
+        width: 700px;
+        margin: 40px auto 100px auto;
+    }
+
+    .subscribe .row {
+        width: 600px;
+    }
+
+    aside {
+        display: none;
+    }
+}
+
+/* ----- 910 - 1015 ----- */
+@media only screen and (max-width: 1015px) {
+    nav ul li {
+        margin: 0 10px;
+    }
+    
+    nav ul li a{
+        font-size: 16px;
+    }
+    
+    header .header-logo {
+        width: 80px;
+    }
+    
+    header h1 {
+        font-size: 80px;
+    }
+
+    .section-menu .menu-list {
+        height: 530px;
+    }
+
+    .section-menu .menu-list ul {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .section-menu .menu-list .menu-photo{
+        margin-bottom: 7px;
+    }
+
+    .section-menu .menu-list .menu-photo img {
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+/* ----- 906 - 909 ----- */
+@media only screen and (max-width: 909px) {
+
+    .home-text .text {
+        width: 600px;
+        margin: 6% auto 8% 13%;
+    }
+
+    .section-menu .menu-nav ul li a {
+        font-size: 16px;
+    }
+
+/** Contact us
+    ========================================================================== **/
+    .contact-us-aside-left .contact-us {
+        width: 550px;
+        margin: 10% auto 0 13%;
+    }
+
+    .contact-us-aside-left .contact-us .icon-small {
+        font-size: 160%;
+    }
+    .contact-us-aside-left .contact-us p {
+        font-size: 110%;
+    }
+    .contact-us-aside-left .contact-us a:link,
+    .contact-us-aside-left .contact-us a:visited {
+        margin-top: 7px;
+        border-bottom: none;
+        transition: color 0.2s;
+    }
+    .contact-us-aside-left .contact-us a:hover,
+    .contact-us-aside-left .contact-us a:active {
+        color: #ccc4b0;
+    }
+
+/** Subscribe form
+    ========================================================================== **/
+    .subscribe {
+        width: 550px;
+        margin: 40px auto 100px 13%;
+    }
+
+    .subscribe .row {
+        width: 550px;
+    }
+}
+
+/* ----- 832 - 905 ----- */
+@media only screen and (max-width: 905px) {
+    header .header-logo {
+        display: none
+    }
+}
+
+/* ----- 806 - 831 ----- */
+@media only screen and (max-width: 831px) {
+    nav ul {
+        display: none;
+    }
+
+    .home-text .text {
+        width: 600px;
+        margin: 6% auto 8% 8%;
+    }
+
+    .section-menu .menu-header:after {
+        display: block;
+        content: "";
+        background-color: #C0CEB2; 
+        height: 8px;
+        width: 100%;
+        margin-top: 20px;
+        /* margin-bottom: 10px; */
+    }
+
+    .section-menu .menu-nav {
+        display: none;
+    }
+
+    .section-menu .menu-list {
+        height: 520px;
+    }
+
+    .contact-us-aside-left .contact-us {
+        width: 550px;
+        margin: 10% auto 0 8%;
+    }
+
+    .subscribe {
+        width: 550px;
+        margin: 40px auto 100px 8%;
+    }
+}
+
+/* ----- 718 - 807 ----- */
+@media only screen and (max-width: 807px) {
+    .home-text .text {
+        width: 600px;
+        margin: 6% auto 8% 5%;
+    }
+    
+    .section-menu h1 {
+        font-size: 80px;
+    }
+    
+    .section-menu h3 {
+        font-size: 20px;
+    }
+    
+    .section-menu .menu-list {
+        height: 350px;
+    }
+    
+    .section-menu .menu-list .menu-photo img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .contact-us-aside-left .contact-us {
+        width: 550px;
+        margin: 10% auto 0 5%;
+    }
+
+    .subscribe {
+        width: 550px;
+        margin: 40px auto 100px 5%;
+    }
+}
+
+/* ----- ~483 - 717 ----- */
+@media only screen and (max-width: 717px) {
+    .home-text .text {
+        width: 400px;
+        margin: 6% auto 8% 5%;
+    }
+
+    .contact-us-aside-left .contact-us {
+        width: 400px;
+        margin: 10% auto 0 5%;
+    }
+
+    .subscribe {
+        width: 400;
+        margin: 40px auto 100px 5%;
+    }
+
+    .subscribe .row {
+        width: 400px;
+    }
+}
