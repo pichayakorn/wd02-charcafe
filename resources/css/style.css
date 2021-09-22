@@ -470,10 +470,11 @@ footer {
     display: flex;
     align-items: center;
     padding: 15px 1%;
-    /* background-color: yellow; */
+    background-color: #253628;
 }
 
 footer p {
+    color: #F5F6F7;
     font-weight: 700;
 }
 
@@ -485,16 +486,16 @@ footer ul {
 footer ul li {
     display: inline-block;
     list-style: none;
-    margin: 0 10px;
+    margin: 0 13px;
 }
 
-footer ul li a{
+footer ul li a {
     text-decoration: none;
-    color: black;
 }
 
 footer ul li a i{
-    font-size: 20px;
+    color: #F5F6F7;
+    font-size: 28px;
 }
 
 /* Jquery ResponsiveSlides
