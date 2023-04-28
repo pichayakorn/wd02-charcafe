@@ -16,7 +16,7 @@ WD02 group project
 - CSS Peek
 - Auto Rename Tag
 
-## 📦 Installation
+## 📦 Development
 
 ### GUI
 1. Click drop down `code` button on top of this repository.
@@ -26,8 +26,8 @@ WD02 group project
 
 ### Bash
 ```bash
-$ git clone https://github.com/pichayakorn/wd02.git
-$ cd wd02
+$ git clone https://github.com/pichayakorn/wd02-charcafe.git
+$ cd wd02-charcafe
 $ code .
 ```
 ## ⚠️ Caution
