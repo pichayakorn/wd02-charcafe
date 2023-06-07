@@ -27,26 +27,25 @@ WD02 group project
 3. Clone this repository to your local drive
 4. Open in Visual Studio Code.
 
-### Bash
+### CLI
 
-```bash
+```sh
 $ git clone https://github.com/pichayakorn/wd02-charcafe.git
 $ cd wd02-charcafe
 $ code .
 ```
-
-## ⚠️ Caution
-
-- Do not develop on `main` branch, create another branch instead.
-- `Fetch` every time before `push` or `pull`.
-- `Commit` when your work are done enough with short and strong message.
-- Because you are contributor, please do not `merge` branch by your self without asking leader's permission.
 
 ## 🛠️ Contributors
 
 <a href="https://github.com/pichayakorn/wd02-charcafe/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=pichayakorn/wd02-charcafe" />
 </a>
+
+## 🛡️ License
+
+MIT license
+
+Check out [LICENSE](/LICENSE) for more detail.
 
 ## 📷 Screenshot
 
